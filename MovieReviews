@@ -1,0 +1,28 @@
+var movies = [
+    {
+        title: "Puff the Magic Dragon",
+        review: "Best movie ever!!"
+    },
+    {
+        title:"Life of PIE",
+        review:"must watch"
+    },
+];
+/*var textPosition={
+    x:108,
+    y:128
+};*/
+for(var i=0; i<movies.length;i++){
+    fill(217, 98, 217);
+    textAlign(CENTER, CENTER);
+   
+    
+    textSize(18);
+    text(movies[i].title,100,100*i+10);
+   
+    fill(255, 0, 0);
+    textSize(13);
+    text(movies[i].review,100,100*i+30);
+    
+}
+
